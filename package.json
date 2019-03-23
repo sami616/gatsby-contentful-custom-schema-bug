@@ -1,0 +1,24 @@
+{
+	"name": "sr-gatsby-test",
+	"description": "Gatsby hello world starter",
+	"license": "MIT",
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "rm -r .cache && gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve"
+	},
+	"dependencies": {
+		"gatsby": "^2.2.8",
+		"gatsby-plugin-react-helmet": "^3.0.0",
+		"gatsby-source-contentful": "^2.0.42",
+		"gatsby-transformer-remark": "^2.1.7",
+		"react": "^16.5.1",
+		"react-dom": "^16.5.1",
+		"react-helmet": "^5.2.0"
+	},
+	"devDependencies": {
+		"eslint-plugin-prettier": "^3.0.0",
+		"prettier": "^1.14.3"
+	}
+}
