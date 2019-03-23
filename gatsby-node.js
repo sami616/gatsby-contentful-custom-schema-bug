@@ -10,7 +10,7 @@ exports.sourceNodes = ({ actions: { createTypes } }) => {
     type ContentfulPage implements Node {
       title: String
       slug: String
-      # sections: [ContentfulSection]
+      sections: [ContentfulSection]
     }
   `)
 }
