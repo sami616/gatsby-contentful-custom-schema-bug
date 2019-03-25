@@ -3,8 +3,20 @@ const path = require('path')
 
 exports.sourceNodes = ({ actions: { createTypes } }) => {
   createTypes(`
+
+    type ContentfulSubSectionSibling implements Node {
+      title: String
+    }
+
+    type ContentfulSubSection implements Node {
+      title: String
+    }
+
+    union ContentfulSubSectionContentfulSubSectionSiblingUnion = ContentfulSubSection | ContentfulSubSectionSibling
+
     type ContentfulSection implements Node {
       title: String
+      subSections: [ContentfulSubSectionContentfulSubSectionSiblingUnion]
     }
 
     type ContentfulPage implements Node {
@@ -12,6 +24,7 @@ exports.sourceNodes = ({ actions: { createTypes } }) => {
       slug: String
       sections: [ContentfulSection]
     }
+
   `)
 }
 
