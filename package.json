@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"scripts": {
 		"develop": "gatsby develop",
-		"start": "rm -r .cache && gatsby develop",
+		"start": "gatsby develop",
 		"build": "gatsby build",
 		"serve": "gatsby serve"
 	},
