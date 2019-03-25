@@ -1,6 +1,5 @@
 const path = require('path')
 
-
 exports.sourceNodes = ({ actions: { createTypes } }) => {
   createTypes(`
 
