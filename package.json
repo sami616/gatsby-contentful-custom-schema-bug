@@ -9,9 +9,9 @@
 		"serve": "gatsby serve"
 	},
 	"dependencies": {
-		"gatsby": "^2.2.10",
+		"gatsby": "^2.4.0-alpha.2",
 		"gatsby-plugin-react-helmet": "^3.0.0",
-		"gatsby-source-contentful": "^2.0.42",
+		"gatsby-source-contentful": "^2.0.53",
 		"gatsby-transformer-remark": "^2.1.7",
 		"react": "^16.5.1",
 		"react-dom": "^16.5.1",
