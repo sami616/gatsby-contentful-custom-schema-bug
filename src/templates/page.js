@@ -32,6 +32,14 @@ export const query = graphql`
 								title
 								slug
 							}
+							items {
+								label
+								page {
+									id
+									title
+									slug
+								}
+							}
 						}
 					}
 				}
